@@ -1,0 +1,71 @@
+@import "~materialize-css/sass/materialize";
+@import "loader";
+@import "fonts";
+
+body {
+    background-color: #f6faf8;
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+.bg-success {
+    background-color: #4CAF50;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-danger {
+    color: #ee1c25;
+}
+
+.pt-0 {
+    padding-top: 0 !important;
+}
+
+.mb-5 {
+    margin-bottom: 6.5rem;
+}
+
+.sticky {
+    position: sticky;
+    background-color: #f6faf8;
+    z-index: 10;
+    top: 55px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 16px;
+    color: #353535;
+    margin-top: 30px;
+}
+
+.toast {
+    font-size: 0.9rem;
+}
+
+.empty-state {
+    text-align: center;
+    margin-top: 2rem;
+    display: grid;
+
+    img {
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    span {
+        font-size: 1rem;
+        color: #737373;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #toast-container {
+        top: 3.2rem !important;
+        bottom: unset;
+    }
+}

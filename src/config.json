@@ -1,0 +1,5 @@
+{
+    "api_host": "https://api.football-data.org/",
+    "api_key": "5af1a44e364648a3a64b3e5fd9399e05",
+    "default_league": "2021"
+}

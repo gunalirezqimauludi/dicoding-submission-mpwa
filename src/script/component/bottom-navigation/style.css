@@ -1,0 +1,45 @@
+.bottom-navigation-bar {
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+}
+
+.bottom-navigation-bar ul {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.bottom-navigation-bar ul li {
+    flex: 1;
+    align-self: center;
+}
+
+.bottom-navigation-bar ul li a {
+    display: flex;
+    border: 1px solid #ee1c25;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.bottom-navigation-bar ul li a i.material-icons {
+    color: #ee1c25;
+}
+
+.bottom-navigation-bar ul li a span {
+    margin-left: 10px;
+    color: #ee1c25;
+}
+
+.bottom-navigation-bar ul li a.active {
+    background-color: #ed1c25;
+}
+
+.bottom-navigation-bar ul li a.active i.material-icons,
+.bottom-navigation-bar ul li a.active span {
+    color: #ffffff;
+}

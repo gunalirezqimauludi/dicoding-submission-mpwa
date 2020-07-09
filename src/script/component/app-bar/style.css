@@ -1,0 +1,16 @@
+nav {
+    background-color: #ed1c25;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+nav .brand-logo {
+    left: inherit;
+    -webkit-transform: none;
+    transform: none;
+}
+
+nav .brand-logo img {
+    height: 32px;
+    margin-top: 1rem;
+}

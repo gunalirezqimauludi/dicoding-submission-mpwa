@@ -1,0 +1,42 @@
+.card-league {
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    display: -webkit-box;
+    overflow-x: scroll;
+    padding: 5px 0 10px 20px;
+    margin-left: -20px;
+}
+
+.card-league .card {
+    width: 180px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.card-league .card.active,
+card-league .card:hover {
+    -webkit-box-shadow: 0px 6px 15px 4px rgba(230, 177, 180, 0.2);
+    -moz-box-shadow: 0px 6px 15px 4px rgba(230, 177, 180, 0.2);
+    box-shadow: 0px 6px 15px 4px rgba(230, 177, 180, 0.2);
+}
+
+.card-league .card.active .card-content .card-title,
+card-league .card:hover .card-content .card-title {
+    font-weight: bold;
+}
+
+.card-league .card .card-content .card-title {
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.card-league .card .card-content .card-image img {
+    height: 125px;
+    object-fit: contain;
+    object-position: center;
+}

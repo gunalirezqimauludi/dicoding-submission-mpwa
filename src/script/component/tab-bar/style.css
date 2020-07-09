@@ -1,0 +1,19 @@
+.tab-bar ul {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.tab-bar ul li {
+    list-style: none;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.tab-bar ul li.active, .tab-bar ul li:hover {
+    font-weight: bold;
+    border-bottom: 1px solid #ed1c25;
+    padding: 5px;
+}
+.tab-bar ul li a {
+    color: #353535;
+}

@@ -1,0 +1,33 @@
+{
+    "leagues": [{
+            "id": "2021",
+            "name": "Premier League",
+            "image": "Premier_League_Logo.png"
+        },
+        {
+            "id": "2014",
+            "name": "Primera Division",
+            "image": "La_Liga_Logo.png"
+        },
+        {
+            "id": "2015",
+            "name": "Ligue 1",
+            "image": "Ligue1.png"
+        },
+        {
+            "id": "2002",
+            "name": "Bundesliga",
+            "image": "Bundesliga_Logo.png"
+        },
+        {
+            "id": "2003",
+            "name": "Eredivisie",
+            "image": "Eredivisie_Logo.png"
+        },
+        {
+            "id": "2001",
+            "name": "UEFA Champions",
+            "image": "UEFA_Champions_League.png"
+        }
+    ]
+}
